@@ -115,7 +115,7 @@ export default function Home() {
               <a
                 target="_self"
                 className="group/link-new inline-flex cursor-pointer items-center transition gap-1 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full text-zinc-50 bg-white/5 hover:bg-blue-400 hover:text-emerald-950 disabled:bg-white/5 disabled:text-zinc-50"
-                href="https://console.upstash.com"
+                href="#"
               >
                 <span>Login</span>
               </a>
@@ -140,10 +140,7 @@ export default function Home() {
                 onMouseOver={() => handleColorChange(1)}
                 onMouseLeave={() => handleColorChange(0)}
               >
-                <a
-                  className="absolute inset-0 z-10"
-                  href="https://console.upstash.com"
-                ></a>
+                <a className="absolute inset-0 z-10" href="#"></a>
                 <h3 className="flex items-center gap-1 text-zinc-50 font-display text-xl font-medium leading-none md:text-2xl">
                   <span>Wearables</span>
                 </h3>
@@ -155,7 +152,7 @@ export default function Home() {
                   className={`group/link-new cursor-pointer items-center transition gap-1 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full hover:bg-emerald-400 hover:text-emerald-950 disabled:bg-white/5 disabled:text-zinc-50 mt-4 hidden md:inline-flex ${
                     tileNumber == 1 ? bgColors[1] : "bg-zinc-50"
                   } text-zinc-950`}
-                  href="https://console.upstash.com"
+                  href="#"
                 >
                   <span>Provider List</span>
                   <Line />
@@ -165,10 +162,7 @@ export default function Home() {
                 onMouseOver={() => handleColorChange(2)}
                 onMouseLeave={() => handleColorChange(0)}
               >
-                <a
-                  className="absolute inset-0 z-10"
-                  href="https://console.upstash.com"
-                ></a>
+                <a className="absolute inset-0 z-10" href="#"></a>
                 <h3 className="flex items-center gap-1 text-zinc-50 font-display text-xl font-medium leading-none md:text-2xl">
                   <span>Labs</span>
                 </h3>
@@ -180,7 +174,7 @@ export default function Home() {
                   className={`group/link-new cursor-pointer items-center transition gap-1 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full hover:bg-emerald-400 hover:text-emerald-950 disabled:bg-white/5 disabled:text-zinc-50 mt-4 hidden md:inline-flex ${
                     tileNumber == 2 ? bgColors[2] : "bg-zinc-50"
                   } text-zinc-950`}
-                  href="https://console.upstash.com"
+                  href="#"
                 >
                   <span>Lab List</span>
                   <Line />
@@ -190,10 +184,7 @@ export default function Home() {
                 onMouseOver={() => handleColorChange(3)}
                 onMouseLeave={() => handleColorChange(0)}
               >
-                <a
-                  className="absolute inset-0 z-10"
-                  href="https://console.upstash.com"
-                ></a>
+                <a className="absolute inset-0 z-10" href="#"></a>
                 <h3 className="flex items-center gap-1 text-zinc-50 font-display text-xl font-medium leading-none md:text-2xl">
                   <span>Clinical</span>
                 </h3>
@@ -205,7 +196,7 @@ export default function Home() {
                   className={`group/link-new cursor-pointer items-center transition gap-1 px-4 sm:px-5 py-1.5 sm:py-2 rounded-full hover:bg-emerald-400 hover:text-emerald-950 disabled:bg-white/5 disabled:text-zinc-50 mt-4 hidden md:inline-flex ${
                     tileNumber == 3 ? bgColors[3] : "bg-zinc-50"
                   } text-zinc-950`}
-                  href="https://console.upstash.com"
+                  href="#"
                 >
                   <span>Network List</span>
                   <Line />
@@ -215,10 +206,7 @@ export default function Home() {
                 onMouseOver={() => handleColorChange(4)}
                 onMouseLeave={() => handleColorChange(0)}
               >
-                <a
-                  className="absolute inset-0 z-10"
-                  href="https://console.upstash.com"
-                ></a>
+                <a className="absolute inset-0 z-10" href="#"></a>
                 <h3 className="flex items-center gap-1 text-zinc-50 font-display text-xl font-medium leading-none md:text-2xl">
                   <span>Ai</span>
                   <span className="ml-0.5 rounded bg-purple-500 px-1.5 py-1 text-xs font-semibold leading-none tracking-wide">
@@ -235,7 +223,7 @@ export default function Home() {
                   } mt-4 hidden md:inline-flex ${
                     tileNumber == 4 ? bgColors[4] : "bg-zinc-50"
                   } text-zinc-950`}
-                  href="https://console.upstash.com"
+                  href="#"
                 >
                   <span>Learn More</span>
                   <Line />
@@ -511,7 +499,7 @@ const LargeTile = ({
           <a
             target="_blank"
             className="group/link-new inline-flex cursor-pointer items-center transition gap-0.5 hover:text-emerald-400 hover:underline"
-            href="https://latency.upstash.io"
+            href="#"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
